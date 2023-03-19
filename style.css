@@ -1,0 +1,27 @@
+.picture2 {
+    display: none;
+}
+.jobly:hover .picture1 {
+    display: none;
+}
+.jobly:hover .picture2 {
+    display: block;
+}
+.warbler:hover .picture1 {
+    display: none;
+}
+.warbler:hover .picture2 {
+    display: block;
+}
+.pixly:hover .picture1 {
+    display: none;
+}
+.pixly:hover .picture2 {
+    display: block;
+}
+.raspi:hover .picture1 {
+    display: none;
+}
+.raspi:hover .picture2 {
+    display: block;
+}
