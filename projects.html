@@ -9,10 +9,11 @@
   <link rel="icon" type="image/png" href="/images/favicon-32x32.png">
   <title>Michael Pappas</title>
 </head>
-<body class="container" style="background-color: #1b4079;">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand ps-2" href="index.html">Michael Pappas</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<body  class="container" style="background-color: #1b4079;">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+    <a class="navbar-brand ps-2" href="index">Michael Pappas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -27,7 +28,7 @@
           <a class="nav-link" href="resume.html">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -37,38 +38,45 @@
         <li class="nav-item"><a href="https://github.com/michaelpappas" class="nav-link"><img  style="width:40px; " src="/images/github.png" alt="github_logo"></a></li>
       </ul>
     </div>
+  </div>
   </nav>
-  <div class="container pt-3 pb-3" style="background:#fafafa">
-    <div class="row ps-5">
-    <div class="card col-6 jobly" style="width: 35rem;">
+
+<div class="container pt-3" style="background:#fafafa">
+<div class="row">
+  <div class="col-12 col-lg-5 mx-auto">
+    <div class="card jobly">
       <div class="picture1">
         <img class="card-img-top img-responsive" src="images/jobly.png" alt="Card image cap">
         </div>
         <div class="picture2">
         <img class="card-img-top img-responsive" src="images/jobly2.png" alt="Card image cap">
         </div>
-      <div class="card-body">
-        <h5 class="card-title">Jobly</h5>
-        <p class="card-text">A job search platform using React and Express</p>
-        <a href="https://github.com/michaelpappas/express-jobly" class="btn btn-primary">Github Backend</a>
-        <a href="https://github.com/michaelpappas/react-jobly" class="btn btn-primary">Github Frontend</a>
-      </div>
+        <div class="card-body">
+          <h5 class="card-title">Jobly</h5>
+          <p class="card-text">A job search platform using React and Express</p>
+          <a href="https://github.com/michaelpappas/express-jobly" class="btn btn-primary">Github Backend</a>
+          <a href="https://github.com/michaelpappas/react-jobly" class="btn btn-primary">Github Frontend</a>
+        </div>
     </div>
-    <div class="card col-6 ms-5 pixly" style="width: 35rem;">
+  </div>
+  <div class="col-12 col-lg-5 mx-auto">
+    <div class="card pixly">
       <div class="picture1">
-      <img class="card-img-top img-responsive" src="images/pixly.png" alt="Card image cap">
-      </div>
-      <div class="picture2">
-      <img class="card-img-top img-responsive" src="images/pixly2.png" alt="Card image cap">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Pixly</h5>
-        <p class="card-text">An image uploading app using React and Flask that uploades image to AWS S3</p>
-        <a href="https://github.com/michaelpappas/pixly-backend" class="btn btn-primary">Github Backend</a>
-        <a href="https://github.com/michaelpappas/pixly-frontend" class="btn btn-primary">Github Frontend</a>
-      </div>
+        <img class="card-img-top img-responsive" src="images/pixly.png" alt="Card image cap">
+        </div>
+        <div class="picture2">
+        <img class="card-img-top img-responsive" src="images/pixly2.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Pixly</h5>
+          <p class="card-text">An image uploading app using React and Flask that uploades image to AWS S3</p>
+          <a href="https://github.com/michaelpappas/pixly-backend" class="btn btn-primary">Github Backend</a>
+          <a href="https://github.com/michaelpappas/pixly-frontend" class="btn btn-primary">Github Frontend</a>
+        </div>
     </div>
-    <div class="card col-6 mt-3 warbler" style="width: 35rem;">
+  </div>
+  <div class="col-12 col-lg-5 mx-auto">
+    <div class="card warbler">
       <div class="picture1">
         <img class="card-img-top img-responsive" src="images/warbler.png" alt="Card image cap">
         </div>
@@ -81,7 +89,9 @@
         <a href="https://github.com/michaelpappas/flask-warbler" class="btn btn-primary">Github</a>
       </div>
     </div>
-    <div class="card col-6 mt-3 ms-5 raspi" style="width: 35rem;">
+  </div>
+  <div class="col-12 col-lg-5 mx-auto">
+    <div class="card raspi">
       <div class="picture1">
         <img class="card-img-top img-responsive" src="images/craigslist.png" alt="Card image cap">
         </div>
@@ -95,7 +105,10 @@
       </div>
     </div>
   </div>
+
 </div>
+</div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
